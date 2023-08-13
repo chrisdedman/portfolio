@@ -1,0 +1,1 @@
+import{O as o,c as t,_ as s}from"./q-11c2eb6d.js";const a="/portfolio",r=o(t(()=>s(()=>import("./q-e293d916.js"),["build/q-e293d916.js","build/q-50a20e47.js","build/q-11c2eb6d.js"]),"s_3sccYCDd1Z0"));export{r as default,a as subpath};
