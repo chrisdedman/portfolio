@@ -1,5 +1,5 @@
 {
-  "manifestHash": "muo2c3",
+  "manifestHash": "pa2xja",
   "symbols": {
     "s_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -25,8 +25,8 @@
       "captures": false,
       "parent": null,
       "loc": [
-        268,
-        793
+        304,
+        807
       ]
     },
     "s_8gdLBszqbaM": {
@@ -326,7 +326,7 @@
   },
   "mapping": {
     "s_02wMImzEAbk": "q-cffef230.js",
-    "s_3sccYCDd1Z0": "q-c4ecf53a.js",
+    "s_3sccYCDd1Z0": "q-bbbbc49a.js",
     "s_8gdLBszqbaM": "q-2a1232a9.js",
     "s_Nk9PlpjQm9Y": "q-c5717e53.js",
     "s_TxCFOy819ag": "q-cffef230.js",
@@ -471,19 +471,6 @@
         "s_e0ssiDXoeAM"
       ]
     },
-    "q-42db64a4.js": {
-      "size": 207,
-      "imports": [
-        "q-11c2eb6d.js"
-      ],
-      "dynamicImports": [
-        "q-c4ecf53a.js"
-      ],
-      "origins": [
-        "src/global.css",
-        "src/root.tsx"
-      ]
-    },
     "q-452cef02.js": {
       "size": 751,
       "imports": [
@@ -599,11 +586,25 @@
         "s_eBQ0vFsFKsk"
       ]
     },
-    "q-c4ecf53a.js": {
-      "size": 541,
+    "q-a44b0def.js": {
+      "size": 235,
+      "imports": [
+        "q-11c2eb6d.js"
+      ],
+      "dynamicImports": [
+        "q-bbbbc49a.js"
+      ],
+      "origins": [
+        "src/global.css",
+        "src/root.tsx"
+      ]
+    },
+    "q-bbbbc49a.js": {
+      "size": 589,
       "imports": [
         "q-11c2eb6d.js",
-        "q-50a20e47.js"
+        "q-50a20e47.js",
+        "q-a44b0def.js"
       ],
       "dynamicImports": [
         "q-8b351729.js"
