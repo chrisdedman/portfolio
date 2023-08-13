@@ -1,112 +1,106 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
-import Counter from "~/components/starter/counter/counter";
-import Hero from "~/components/starter/hero/hero";
 import Infobox from "~/components/starter/infobox/infobox";
-import Starter from "~/components/starter/next-steps/next-steps";
 
 export default component$(() => {
   return (
     <>
-      <Hero />
-      <Starter />
+      <div class="container container-flex">
+        <Infobox>
+          <div q:slot="title" class="icon icon-apps">
+            Interest
+          </div>
+          <>
+            <li>Software Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Machine Learning</li>
+            <li>Embedded System</li>
+          </>
+          </Infobox>
 
-      <div role="presentation" class="ellipsis"></div>
-      <div role="presentation" class="ellipsis ellipsis-purple"></div>
+          <Infobox>
+          <div q:slot="title" class="icon icon-language">
+            Languages
+          </div>
+          <>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Java</li>
+          </>
+        </Infobox>
 
-      <div class="container container-center container-spacing-xl">
-        <h3>
-          You can <span class="highlight">count</span>
-          <br /> on me
-        </h3>
-        <Counter />
+        <Infobox>
+          <div q:slot="title" class="icon icon-learning">
+            Currently Learning
+          </div>
+          <>
+            <li>Golang</li>
+            <li>Performance Load Testing</li>
+            <li>Elixir</li>
+          </>
+        </Infobox>
       </div>
 
       <div class="container container-flex">
         <Infobox>
-          <div q:slot="title" class="icon icon-cli">
-            CLI Commands
+          <div q:slot="title" class="icon icon-project">
+            Projects
           </div>
           <>
-            <p>
-              <code>npm run dev</code>
-              <br />
-              Starts the development server and watches for changes
-            </p>
-            <p>
-              <code>npm run preview</code>
-              <br />
-              Creates production build and starts a server to preview it
-            </p>
-            <p>
-              <code>npm run build</code>
-              <br />
-              Creates production build
-            </p>
-            <p>
-              <code>npm run qwik add</code>
-              <br />
-              Runs the qwik CLI to add integrations
-            </p>
+            <li>Near Earth Object Tracking</li>
+            <li>Air Quality Py</li>
+            <li>Work Management App</li>
           </>
         </Infobox>
-
-        <div>
-          <Infobox>
-            <div q:slot="title" class="icon icon-apps">
-              Example Apps
-            </div>
-            <p>
-              Have a look at the <a href="/demo/flower">Flower App</a> or the{" "}
-              <a href="/demo/todolist">Todo App</a>.
-            </p>
-          </Infobox>
-
-          <Infobox>
-            <div q:slot="title" class="icon icon-community">
-              Community
-            </div>
-            <ul>
-              <li>
-                <span>Questions or just want to say hi? </span>
-                <a href="https://qwik.builder.io/chat" target="_blank">
-                  Chat on discord!
-                </a>
-              </li>
-              <li>
-                <span>Follow </span>
-                <a href="https://twitter.com/QwikDev" target="_blank">
-                  @QwikDev
-                </a>
-                <span> on Twitter</span>
-              </li>
-              <li>
-                <span>Open issues and contribute on </span>
-                <a href="https://github.com/BuilderIO/qwik" target="_blank">
-                  GitHub
-                </a>
-              </li>
-              <li>
-                <span>Watch </span>
-                <a href="https://qwik.builder.io/media/" target="_blank">
-                  Presentations, Podcasts, Videos, etc.
-                </a>
-              </li>
-            </ul>
-          </Infobox>
-        </div>
+        <Infobox>
+          <div q:slot="title" class="icon icon-community">
+            Open-Source Contribution
+          </div>
+          <>
+          <ul>
+            <li>Grace ~ Discord Bot
+              <ul>
+                <li><a href="https://github.com/Code-Society-Lab/grace/pull/51" target="_blank">Weather Feature</a></li>
+                <li><a href="https://github.com/Code-Society-Lab/grace/pull/81" target="_blank">Translator Feature</a></li>
+                <li><a href="https://github.com/Code-Society-Lab/grace/pull/88" target="_blank">Update Documentation</a></li>
+                <li><a href="https://github.com/Code-Society-Lab/grace/pull/89" target="_blank">Code Generator Feature (OpenAI)</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul>
+            <li>Cursif ~ Note-taking Application
+              <ul>
+                <li><a href="https://github.com/Code-Society-Lab/cursif-backend/pull/5" target="_blank">Create & Manage Macros (Backend)</a></li>
+              </ul>
+            </li>
+          </ul>
+          </>
+        </Infobox>
+      
+      <Infobox>
+          <div q:slot="title" class="icon icon-cli">
+            Contact
+          </div>
+          <>
+          <ul>
+            <li><a href="https://twitter.com/DedmanRollet" target="_blank">X/Twitter</a></li>
+            <li><a href="https://github.com/chrisdedman" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/chris-dedman-rollet/" target="_blank">LinkedIn</a></li>
+          </ul>
+          </>
+        </Infobox>
       </div>
     </>
   );
 });
 
 export const head: DocumentHead = {
-  title: "Welcome to Qwik",
+  title: "Chris Dedman Portfolio",
   meta: [
     {
       name: "description",
-      content: "Qwik site description",
+      content: "Software Engineering Portfolio",
     },
   ],
 };
