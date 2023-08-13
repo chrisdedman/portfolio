@@ -1,5 +1,5 @@
 {
-  "manifestHash": "fo3bd4",
+  "manifestHash": "ylquey",
   "symbols": {
     "s_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -26,7 +26,7 @@
       "parent": null,
       "loc": [
         268,
-        793
+        803
       ]
     },
     "s_8gdLBszqbaM": {
@@ -326,7 +326,7 @@
   },
   "mapping": {
     "s_02wMImzEAbk": "q-8918d891.js",
-    "s_3sccYCDd1Z0": "q-1d48e138.js",
+    "s_3sccYCDd1Z0": "q-7388c219.js",
     "s_8gdLBszqbaM": "q-fc4c8940.js",
     "s_Nk9PlpjQm9Y": "q-6dfd1642.js",
     "s_TxCFOy819ag": "q-8918d891.js",
@@ -373,24 +373,6 @@
       ],
       "origins": [
         "@qwik-city-entries"
-      ]
-    },
-    "q-1d48e138.js": {
-      "size": 541,
-      "imports": [
-        "q-2d5edf8f.js",
-        "q-e769e349.js"
-      ],
-      "dynamicImports": [
-        "q-c70e5df9.js"
-      ],
-      "origins": [
-        "src/components/router-head/router-head.tsx",
-        "src/entry_root.js",
-        "src/s_3sccycdd1z0.js"
-      ],
-      "symbols": [
-        "s_3sccYCDd1Z0"
       ]
     },
     "q-2d5edf8f.js": {
@@ -518,6 +500,24 @@
         "s_p9MSze0ojs4"
       ]
     },
+    "q-7388c219.js": {
+      "size": 551,
+      "imports": [
+        "q-2d5edf8f.js",
+        "q-e769e349.js"
+      ],
+      "dynamicImports": [
+        "q-c70e5df9.js"
+      ],
+      "origins": [
+        "src/components/router-head/router-head.tsx",
+        "src/entry_root.js",
+        "src/s_3sccycdd1z0.js"
+      ],
+      "symbols": [
+        "s_3sccYCDd1Z0"
+      ]
+    },
     "q-8918d891.js": {
       "size": 5538,
       "imports": [
@@ -566,19 +566,6 @@
         "s_mBt9fIl89mc"
       ]
     },
-    "q-9ef675de.js": {
-      "size": 207,
-      "imports": [
-        "q-2d5edf8f.js"
-      ],
-      "dynamicImports": [
-        "q-1d48e138.js"
-      ],
-      "origins": [
-        "src/global.css",
-        "src/root.tsx"
-      ]
-    },
     "q-a1b841a4.js": {
       "size": 751,
       "imports": [
@@ -590,6 +577,19 @@
       ],
       "symbols": [
         "s_A5bZC7WO00A"
+      ]
+    },
+    "q-b1a61dce.js": {
+      "size": 207,
+      "imports": [
+        "q-2d5edf8f.js"
+      ],
+      "dynamicImports": [
+        "q-7388c219.js"
+      ],
+      "origins": [
+        "src/global.css",
+        "src/root.tsx"
       ]
     },
     "q-c70e5df9.js": {
