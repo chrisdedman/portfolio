@@ -77,19 +77,6 @@ export default component$(() => {
           </ul>
           </>
         </Infobox>
-      
-      <Infobox>
-          <div q:slot="title" class="icon icon-cli">
-            Contact
-          </div>
-          <>
-          <ul>
-            <li><a href="https://twitter.com/DedmanRollet" target="_blank">X/Twitter</a></li>
-            <li><a href="https://github.com/chrisdedman" target="_blank">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/chris-dedman-rollet/" target="_blank">LinkedIn</a></li>
-          </ul>
-          </>
-        </Infobox>
       </div>
     </>
   );
