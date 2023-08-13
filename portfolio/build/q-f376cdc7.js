@@ -1,0 +1,1 @@
+import{O as r,i as o,c as e,_ as t}from"./q-11c2eb6d.js";import{G as a}from"./q-50a20e47.js";const m=()=>{throw"Symbol removed by Qwik Optimizer, it can not be called from current platform"},_=a(o("s_GQamrjryd1Y")),c=r(e(()=>t(()=>import("./q-2aae8965.js"),["build/q-2aae8965.js","build/q-11c2eb6d.js"]),"s_VkLNXphUh5s"));export{c as default,m as onGet,_ as useServerTimeLoader};
