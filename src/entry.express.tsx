@@ -54,7 +54,7 @@ const app = express();
 
 // Static asset handlers
 // https://expressjs.com/en/starter/static-files.html
-app.use(`/dist`, express.static(buildDir, { immutable: true, maxAge: "1y" }));
+app.use(`/build`, express.static(buildDir, { immutable: true, maxAge: "1y" }));
 app.use(express.static(distDir, { redirect: false }));
 
 // Use Qwik City's page and endpoint request handler
