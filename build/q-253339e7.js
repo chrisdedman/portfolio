@@ -1,4 +1,4 @@
-import{$ as ie}from"./q-2d5edf8f.js";import{useServerTimeLoader as vs}from"./q-f863b153.js";import"./q-bcd91788.js";//! moment.js
+import{$ as ie}from"./q-2d5edf8f.js";import{useServerTimeLoader as vs}from"./q-8b62c2a9.js";import"./q-c7f1a15f.js";//! moment.js
 //! version : 2.29.4
 //! authors : Tim Wood, Iskren Chernev, Moment.js contributors
 //! license : MIT
