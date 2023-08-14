@@ -1,6 +1,6 @@
 {
   "name": "my-qwik-basic-starter",
-  "description": "Demo App with Routing built-in (recommended)",
+  "description": "My portfolio",
   "homepage": "https://chrisdedman.github.io/portfolio",
   "engines": {
     "node": ">=15.0.0"

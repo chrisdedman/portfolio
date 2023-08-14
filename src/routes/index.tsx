@@ -48,9 +48,10 @@ export default component$(() => {
             Projects
           </div>
           <>
-            <li>Near Earth Object Tracking</li>
-            <li>Air Quality Py</li>
-            <li>Work Management App</li>
+            <li><a href="https://github.com/chrisdedman/Near_Earth_Object" target="_blank">Near Earth Object Tracking</a></li>
+            <li><a href="https://github.com/chrisdedman/air_quality" target="_blank">Air Quality Py</a></li>
+            <li><a href="https://github.com/chrisdedman/work_management" target="_blank">Work Management App</a></li>
+            <li><a href="https://github.com/chrisdedman/weather_station" target="_blank">Go Weather station</a></li>
           </>
         </Infobox>
         <Infobox>

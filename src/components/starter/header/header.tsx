@@ -15,7 +15,7 @@ export default component$(() => {
           <li>
             <a
               href="https://twitter.com/DedmanRollet" target="_blank">
-              x/ Twitter
+              x/Twitter
             </a>
           </li>
 
